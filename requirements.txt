@@ -1,23 +1,23 @@
 # Natural Language Processing
-langchain==0.0.267
+langchain==1.3.9
 chromadb==0.4.6
 pdfminer.six==20221105
 InstructorEmbedding
-sentence-transformers==2.2.2
+sentence-transformers==5.6.0
 faiss-cpu
 huggingface_hub
 transformers
 autoawq; sys_platform != 'darwin'
-protobuf==3.20.2; sys_platform != 'darwin'
+protobuf==5.29.6; sys_platform != 'darwin'
 protobuf==3.20.2; sys_platform == 'darwin' and platform_machine != 'arm64'
-protobuf==3.20.3; sys_platform == 'darwin' and platform_machine == 'arm64'
+protobuf==5.29.6; sys_platform == 'darwin' and platform_machine == 'arm64'
 auto-gptq==0.6.0; sys_platform != 'darwin'
 docx2txt
 unstructured
 unstructured[pdf]
 
 # Utilities
-urllib3==1.26.6
+urllib3==2.8.0
 accelerate
 bitsandbytes ; sys_platform != 'win32'
 bitsandbytes-windows ; sys_platform == 'win32'
